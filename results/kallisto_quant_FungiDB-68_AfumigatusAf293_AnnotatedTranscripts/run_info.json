@@ -1,0 +1,14 @@
+{
+	"n_targets": 10130,
+	"n_bootstraps": 100,
+	"n_processed": 96945550,
+	"n_pseudoaligned": 62244810,
+	"n_unique": 47366896,
+	"p_pseudoaligned": 64.2,
+	"p_unique": 48.9,
+	"kallisto_version": "0.52.0",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Tue Jun 30 08:43:25 2026",
+	"call": "/bigdata/stajichlab/shared/projects/A_fumigatus/Cramer_Vellanki_singleCell_CEA10_Biofilm/.pixi/envs/default/bin/kallisto quant -t 24 -i index/FungiDB-68_AfumigatusAf293_AnnotatedTranscripts.idx --bootstrap-samples=100 -o results/kallisto_quant_FungiDB-68_AfumigatusAf293_AnnotatedTranscripts --pseudobam reads/SV01_GEX1_S6_R1_001.fastq.gz reads/SV01_GEX1_S6_R2_001.fastq.gz"
+}
