@@ -1,0 +1,14 @@
+{
+	"n_targets": 10825,
+	"n_bootstraps": 100,
+	"n_processed": 96945550,
+	"n_pseudoaligned": 62038657,
+	"n_unique": 11342749,
+	"p_pseudoaligned": 64.0,
+	"p_unique": 11.7,
+	"kallisto_version": "0.52.0",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Mon Jun 29 20:58:03 2026",
+	"call": "/bigdata/stajichlab/shared/projects/A_fumigatus/Cramer_Vellanki_singleCell_CEA10_Biofilm/.pixi/envs/default/bin/kallisto quant -t 24 -i refstrain_index/Aspergillus_fumigatus_47_4.idx --bootstrap-samples=100 -o refstrain_results/kallisto_quant_Aspergillus_fumigatus_47_4 --pseudobam reads/SV01_GEX1_S6_R1_001.fastq.gz reads/SV01_GEX1_S6_R2_001.fastq.gz"
+}

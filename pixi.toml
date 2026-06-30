@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Jason Stajich <jason.stajich@ucr.edu>"]
+channels = ["conda-forge","bioconda"]
+name = "Cramer_Vellanki_singleCell_CEA10_Biofilm"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+kallisto = ">=0.52.0,<0.53"
+bustools = ">=0.45.1,<0.46"
